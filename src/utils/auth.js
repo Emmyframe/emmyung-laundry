@@ -38,7 +38,7 @@ export function setToken(token){
     return Cookies.set('token',token)
 }
 export function getToken(){
-    if (typeof window === undefined) {
+    if (typeof window === 'undefined') {
         return null;
     }
     return Cookies.get('token')

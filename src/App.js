@@ -8,8 +8,6 @@ import Order from "./Pages/Order";
 import Contact from "./Pages/Contact";
 import "./App.css";
 import Signup from "./Pages/Signup";
-import { useDispatch } from "react-redux";
-import { login, logout } from "./features/userSlice";
 import Footer from "./Components/Footer";
 import SingleService from "./Pages/SingleService";
 import MySchedule from "./Pages/MySchedules";
@@ -21,14 +19,13 @@ import PaymentSuccess from "./Pages/PaymentSuccess";
 import AdminDashboard from "./Pages/AdminDashboard";
 
 function App() {
-  const dispatch = useDispatch();
   const [isUserlogin, setUserLogin] = useState(false)
   useEffect(()=>{
     const usertoken = getToken()
     if(usertoken) {
       setUserLogin(true)
     }
-  })
+  }, [])
  
   return (
     <Router>
