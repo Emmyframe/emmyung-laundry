@@ -8,7 +8,7 @@ const Sidebar = ({currentPage, onPageChange}) => {
   return (
     <div className="sidebar">
       <div className="sidebar-logo">
-        <h1>Laundry Admin</h1>
+        <h1>EmmyLaundry Admin</h1>
       </div>
       <ul className="sidebar-menu">
         <li className={currentPage == "orders" ? "sideBarActiveLink": ""}  onClick={() => onPageChange("orders")}>

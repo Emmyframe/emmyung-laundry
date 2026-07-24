@@ -18,7 +18,7 @@ function Home() {
 
       <div className="home__service">
         <h2>Services</h2>
-        <h4>Our laundryHub offers the following services</h4>
+        <h4>EmmyLaundry Hub offers the following services</h4>
         <div className="home__container">
           <div className="home__content">
             <Service

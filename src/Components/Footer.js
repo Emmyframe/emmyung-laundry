@@ -73,7 +73,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p className="footer-text">© 2023 - LaundryHub. All rights reserved.</p>
+        <p className="footer-text">© 2026 - EmmyLaundry Hub. All rights reserved.</p>
       </div>
     </footer>
   );

@@ -6,7 +6,7 @@ import Staff from "../Components/Staff";
 function About() {
   return (
     <div className="about">
-      <h3>About Our laundryHub</h3>
+      <h3>About EmmyLaundry Hub</h3>
       <div className="about__container">
         <div className="about__us">
           <div className="about__video">
@@ -20,14 +20,14 @@ function About() {
           </div>
           <div className="about__us-content">
             <p>
-              laundryHub is a professional cleaning and pressing service
+              EmmyLaundry Hub is a professional cleaning and pressing service
               provider, who caters for the personal and family wardrobes of men,
               women and children. We also serve to ensure clean and presentable
               hotel staff work wear. Our state of the art Laundry machinery and
               equipment, coupled with professionally trained staff strives to
               ensure great results at competitive rates.
             </p>
-            <h2>Why choose laundryHub</h2>
+            <h2>Why choose EmmyLaundry Hub</h2>
             <h3>1.High quality Services provided</h3>
             <h3>2.Faster rate of goods deliverd</h3>
             <h3>3.High offers and cheap prices</h3>

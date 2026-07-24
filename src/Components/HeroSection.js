@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className="hero">
       <div className="hero__content">
-        <h1>Welcome to the LaundryHub</h1>
+        <h1>Welcome to EmmyLaundry Hub</h1>
         <h2>Let us take care of your chores, quickly and properly.</h2>
         <Link to="/service" className="hero__cta">Get Started</Link>
       </div>
